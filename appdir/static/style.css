@@ -1,0 +1,55 @@
+.topoptions {
+  overflow: hidden;
+  margin: 0px;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+
+.topoptions a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+
+body{
+  margin: 0px;
+}
+
+.topoptions button {
+  color: black;
+  background-color: transparent;
+  padding: 16px 5vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-right: 5vw;
+  border-width: 0px;
+  border-bottom-width: 1px;
+
+}
+
+.topoptions button:hover {
+  background-color: lightgray;
+  transition: background-color 0.5s ease;
+}
+
+.topoptions button:active {
+  background-color: gray;
+  transition: background-color 0s;
+}
+
+.topoptions input[type=text]{
+  float: right;
+  padding: 8px;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 16px;
+  padding-right: 10vw;
+  border-radius: 15px;
+  border: 1px #000 solid;
+}
